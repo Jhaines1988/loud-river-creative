@@ -1,0 +1,24 @@
+.home-container {
+  padding: 1.6rem;
+}
+
+.header {
+  font-family: 'Oswald';
+  font-size: 3.4rem;
+  line-height: 4rem;
+  margin: 1.6rem 0;
+  font-weight: 400;
+}
+.emphasized-font {
+  font-family: 'Calton-Elegance-Script';
+  padding: 0 0.2em;
+  box-shadow: inset 0 -0.7em#fee41f;
+  font-size: 4rem;
+  font-weight: 400;
+  display: inline-block;
+}
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: 'Lato';
+}

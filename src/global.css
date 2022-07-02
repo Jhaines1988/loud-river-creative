@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  text-decoration-line: underline;
+  background-color: #fee41f;
+}
+
+input:focus {
+  border: 2px solid #fee41f;
+  box-shadow: #fee41f;
+}

@@ -1,0 +1,92 @@
+.form-container {
+  margin: 2.4rem 0;
+  padding: 1.6rem;
+  padding-top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact-header {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 94px;
+  margin: 0 auto;
+}
+
+h2.contact-header > em {
+  font-family: 'Calton-Elegance-Script';
+}
+.text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+  width: 100%;
+}
+
+label {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.form-input,
+.text-input {
+  background: #f2f2f2;
+  border-radius: 8px;
+  border: none;
+  height: 6rem;
+  /* width: 34.3rem; */
+  font-family: 'Lato';
+  margin-bottom: 2.4rem;
+  text-indent: 1rem;
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+}
+
+input:active,
+textarea:active,
+textarea:hover,
+input:hover {
+  border: 2px solid #fee41f;
+}
+
+.text-input {
+  height: auto;
+  padding-top: 1rem;
+}
+
+.submit-button {
+  background: black;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 15rem;
+  height: 5rem;
+  margin-top: 2.4rem;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.footer-container {
+  margin: 2.4rem 0;
+  padding: 1.6rem;
+}
+.footer {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  color: black;
+}
