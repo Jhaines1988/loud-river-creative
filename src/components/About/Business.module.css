@@ -19,4 +19,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+@media (min-width: 768px) {
+  .about-business-text {
+    padding: 0 11rem;
+  }
+}
+@media (min-width: 1280px) {
+  .business-container {
+    flex-basis: 25.3%;
+  }
 }

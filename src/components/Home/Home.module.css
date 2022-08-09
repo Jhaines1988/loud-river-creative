@@ -1,5 +1,6 @@
 .home-container {
   padding: 1.6rem;
+  max-width: var(--size-max-width);
 }
 
 .header {
@@ -21,4 +22,40 @@
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-family: 'Lato';
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    grid-column: 2/10;
+    padding: 3.2rem 8rem;
+  }
+
+  .header,
+  .emphasized-font {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    grid-column: 2/10;
+  }
+
+  .header,
+  .emphasized-font {
+    font-size: 7.5rem;
+    line-height: 9.4rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
 }

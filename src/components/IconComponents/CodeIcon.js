@@ -18,7 +18,7 @@ const CodeIcon = () => {
         transform='rotate(90 27 18)'
         fill='black'
         stroke='black'
-        stroke-width='2'
+        strokeWidth='2'
       />
       <rect
         x='27'
@@ -29,7 +29,7 @@ const CodeIcon = () => {
         transform='rotate(90 27 26)'
         fill='black'
         stroke='black'
-        stroke-width='2'
+        strokeWidth='2'
       />
       <rect
         x='12'
@@ -40,17 +40,17 @@ const CodeIcon = () => {
         transform='rotate(-90 12 16)'
         fill='black'
         stroke='black'
-        stroke-width='2'
+        strokeWidth='2'
       />
       <path
         d='M14 15V24C14 25.8856 14 26.8284 14.5858 27.4142C15.1716 28 16.1144 28 18 28H23'
         stroke='black'
-        stroke-width='2'
+        strokeWidth='2'
       />
       <path
         d='M14 16V16C14 17.8856 14 18.8284 14.5858 19.4142C15.1716 20 16.1144 20 18 20H23'
         stroke='black'
-        stroke-width='2'
+        strokeWidth='2'
       />
     </svg>
   );

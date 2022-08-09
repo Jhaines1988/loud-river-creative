@@ -18,6 +18,7 @@
 
 h2.contact-header > em {
   font-family: 'Calton-Elegance-Script';
+  padding-left: 6px;
 }
 .text {
   font-family: 'Lato';
@@ -69,13 +70,13 @@ input:hover {
 }
 
 .text-input {
-  height: auto;
+  height: 20rem;
   padding-top: 1rem;
 }
 
 .submit-button {
   background: black;
-  border-radius: 40px;
+  /* border-radius: 40px; */
   color: white;
   font-family: 'Lato';
   font-style: normal;
@@ -89,4 +90,44 @@ input:hover {
   height: 5rem;
   margin-top: 2.4rem;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    padding: 3.6rem 8.2rem;
+    padding-right: 20rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .form-container {
+    grid-row: 3;
+    grid-column: 2/14;
+    display: grid;
+    grid-template-columns: repeat(12, 80px);
+    gap: 20px;
+  }
+
+  .contact-header {
+    grid-row: 1/3;
+    grid-column: 2/7;
+    text-align: left;
+    margin: 0;
+    font-size: 6.4rem;
+  }
+  .text {
+    grid-column: 2/7;
+  }
+  .contact-form {
+    grid-column: 9/13;
+  }
+
+  .form-header-content-container {
+    display: flex;
+    flex-flow: column nowrap;
+    grid-column: 2/7;
+  }
+  .form-input {
+    flex-basis: 11.6%;
+  }
 }

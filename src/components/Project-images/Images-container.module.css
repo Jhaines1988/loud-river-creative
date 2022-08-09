@@ -17,7 +17,22 @@
   padding: 0;
   text-align: center;
 }
-@media (min-width: 60rem) {
+
+@media (min-width: 768px) {
   .image-container {
+    display: flex;
+    justify-content: center;
+    gap: unset;
+  }
+
+  .static-image {
+    /* margin: unset; */
+  }
+}
+@media (min-width: 1280px) {
+  .image-container {
+    grid-template-columns: unset;
+
+    grid-column: 10/14;
   }
 }

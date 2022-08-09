@@ -1,5 +1,7 @@
 .nav-container {
   padding: 1.6rem;
+  max-width: var(--size-max-width);
+  margin: 0 auto;
 }
 
 .nav-list {
@@ -9,12 +11,43 @@
   padding: 0;
 }
 .static-image {
-  width: 4.8rem;
-  height: 4.8rem;
+  /* width: 10rem; */
+  /* height: 4.8rem; */
   /* align-self: center; */
+}
+.static-image-picture {
+  background-image: url('../../images/LRC\ Logo.svg');
+  width: 20px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  text-transform: uppercase;
 }
 .nav-item {
   list-style-type: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+}
+.nav-item > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.nav-item > a:focus {
+  text-decoration: underline;
+  color: rgba(0, 0, 0);
 }
 
 .hamburger {
@@ -27,8 +60,12 @@
 }
 
 @media (min-width: 768px) {
-  .static-image {
-    width: 20rem;
-    height: 3.9rem;
+  .static-image-picture {
+    width: 17.9rem;
+    height: 3.4rem;
+  }
+
+  .nav-container {
+    padding: 4rem 8.2rem;
   }
 }

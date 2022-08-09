@@ -17,3 +17,19 @@
 .footer-link {
   color: black;
 }
+
+@media (min-width: 768px) {
+  .footer-container {
+    padding: 0 8.2rem;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}

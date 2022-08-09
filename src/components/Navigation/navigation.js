@@ -6,23 +6,28 @@ const Navigation = () => {
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.navList}>
-        <StaticImage
-          src='../../images/LRC Logo Mark.png'
+        <span className={styles.staticImagePicture}></span>
+        {/* <StaticImage
+          // src='../../images/LRC Logo Mark.png'
+          src='../../images/LRC Logo.png'
           alt='placeholder icon'
-          width={48}
+          // width={64}
           layout='constrained'
           placeholder='blurred'
+          imgClassName={styles.staticImagePicture}
           className={styles.staticImage}
-        />
-        <li className={styles.navItem}>
-          <Link>Hello</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link to='#about'>About</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link to='#work-together'>Contact</Link>
-        </li>
+        /> */}
+        <div className={styles.navItemContainer}>
+          <li className={styles.navItem}>
+            <Link to='/'>Hello</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link to='#about'>About</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link to='#work-together'>Contact</Link>
+          </li>
+        </div>
       </ul>
     </nav>
   );

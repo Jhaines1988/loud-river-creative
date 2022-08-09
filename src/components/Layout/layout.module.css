@@ -1,6 +1,8 @@
-.main-layout {
-  /* display: grid;
-
-
-  height: 100vh; */
+@media (min-width: 1280px) {
+  .main-layout {
+    display: grid;
+    grid-template-columns: auto repeat(12, 80px) auto;
+    gap: 0px 20px;
+    width: 100vw;
+  }
 }
