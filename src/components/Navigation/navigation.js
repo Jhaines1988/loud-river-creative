@@ -6,16 +6,6 @@ const Navigation = () => {
     <nav className={styles.navContainer}>
       <ul className={styles.navList}>
         <span className={styles.staticImagePicture}></span>
-        {/* <StaticImage
-          // src='../../images/LRC Logo Mark.png'
-          src='../../images/LRC Logo.png'
-          alt='placeholder icon'
-          // width={64}
-          layout='constrained'
-          placeholder='blurred'
-          imgClassName={styles.staticImagePicture}
-          className={styles.staticImage}
-        /> */}
         <div className={styles.navItemContainer}>
           <li className={styles.navItem}>
             <Link to='/'>Hello</Link>

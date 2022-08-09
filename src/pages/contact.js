@@ -4,7 +4,6 @@ import ContactForm from '../components/Contact-Form/contact-form';
 const ContactPage = () => {
   return (
     <>
-      {' '}
       <ContactForm />
     </>
   );
