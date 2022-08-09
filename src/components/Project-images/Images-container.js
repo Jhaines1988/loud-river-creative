@@ -9,21 +9,24 @@ const ImagesContainer = () => {
         className={styles.staticImage}
         alt='Carolyn Haines smiling like a elementary school student on picture day, wearing glasses and a yellow blazer'
         src='../../images/CHDesign.png'
-        // layout='fullWidth'
+        placeholder='blurred'
+        layout='constrained'
       />
 
       <StaticImage
         className={styles.staticImage}
         alt='A laptop wvith code on it representing Joe Haines Development Site'
         src='../../images/JHCodes.png'
-        // layout='fullWidth'
+        placeholder='blurred'
+        layout='constrained'
       />
 
       <StaticImage
         className={styles.staticImage}
         alt='Joe And The Loud River album cover with a vinyl record emerging from the sleeve'
         src='../../images/JLRiver.png'
-        // layout='constrained'
+        placeholder='blurred'
+        layout='constrained'
       />
     </div>
   );
