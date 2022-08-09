@@ -14,10 +14,7 @@ const ContactForm = () => {
         <h2 id='work-together' className={styles.contactHeader}>
           Let's work <em>together</em>
         </h2>
-        <p className={styles.text}>
-          Send us a note to say hello! Nunc cubilia arcu eros quam aliquam quam
-          ridiculus hendrerit et nec at.
-        </p>
+        <p className={styles.text}>Send us a note to say hello!</p>
       </div>
       <form
         id='contact-form'

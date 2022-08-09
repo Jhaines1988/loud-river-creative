@@ -21,10 +21,10 @@ const Navigation = () => {
             <Link to='/'>Hello</Link>
           </li>
           <li className={styles.navItem}>
-            <Link to='#about'>About</Link>
+            <a href='#about'>About</a>
           </li>
           <li className={styles.navItem}>
-            <Link to='#work-together'>Contact</Link>
+            <a href='#work-together'>Contact</a>
           </li>
         </div>
       </ul>
