@@ -6,12 +6,11 @@ import Footer from '../Footer/Footer';
 import '../../typography.css';
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className={styles.appContainer}>
       <Navigation />
-
       <main className={styles.mainLayout}>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 

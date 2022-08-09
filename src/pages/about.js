@@ -3,8 +3,7 @@ import AboutInfo from '../components/About/About';
 const AboutPage = () => {
   return (
     <>
-      {' '}
-      <AboutInfo />{' '}
+      <AboutInfo />
     </>
   );
 };
