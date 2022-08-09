@@ -5,12 +5,11 @@ import MainButton from '../Button/Main-button';
 const Home = (props) => {
   return (
     <div className={styles.homeContainer}>
-      <header>
-        <h1 className={styles.header}>
-          Welcome to our collection of
-          <em className={styles.emphasizedFont}>creative</em> adventures.
-        </h1>
-      </header>
+      <h1 className={styles.header}>
+        Welcome to our collection of
+        <em className={styles.emphasizedFont}>creative</em> adventures.
+      </h1>
+
       <p className={styles.text}>
         Hey, hi, hello! We're Joe & Carolyn Haines, and we make lots of things,
         and we're bringing our creative specialties together to live under one
