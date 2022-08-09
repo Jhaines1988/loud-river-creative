@@ -24,14 +24,10 @@
     justify-content: center;
     gap: unset;
   }
-
-  .static-image {
-    /* margin: unset; */
-  }
 }
 @media (min-width: 1280px) {
   .image-container {
-    grid-template-columns: unset;
+    display: grid;
 
     grid-column: 10/14;
   }
