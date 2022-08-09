@@ -4,3 +4,5 @@ import { Helmet } from 'react-helmet';
 const SEO = (props) => {
   return <div>Nothing yet </div>;
 };
+
+export default SEO;

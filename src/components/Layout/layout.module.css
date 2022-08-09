@@ -1,8 +1,11 @@
+.main-layout {
+  max-width: 100vw;
+}
+
 @media (min-width: 1280px) {
   .main-layout {
     display: grid;
     grid-template-columns: auto repeat(12, 80px) auto;
     gap: 0px 20px;
-    width: 100vw;
   }
 }
