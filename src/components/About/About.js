@@ -5,26 +5,28 @@ import DesignIcon from '../IconComponents/DesignIcon';
 import CodeIcon from '../IconComponents/CodeIcon';
 import MusicIcon from '../IconComponents/MusicIcon';
 const AboutInfo = (props) => {
-  const dummyText =
-    'Nunc cubilia arcu eros quam aliquam quam ridiculus hendrerit et nec at nostra adipiscing molestie';
+  const carolynhainesDesignText = `Design website and portfolio`;
+
+  const jhCodesText = `Blog and  website featuring writings on front, back and full-stack development and current projects.`;
+  const joeAndTheLoudRiverText = `Bandcamp site for Joe & the Loud River. Custom site is under construction, check back soon!`;
   return (
     <div id='about' className={styles.aboutContainer}>
       <Business
         BusinessIcon={<DesignIcon />}
-        title='Carolyn Haines .design'
-        text={dummyText}
+        title='Carolyn Haines.design'
+        text={carolynhainesDesignText}
         buttonUrl='https://carolynhaines.design'
       />
       <Business
         BusinessIcon={<CodeIcon />}
-        title='Joe Haines .codes'
-        text={dummyText}
+        title='Joe Haines.codes'
+        text={jhCodesText}
         buttonUrl='https://joehaines.codes'
       />
       <Business
         BusinessIcon={<MusicIcon />}
         title={`Joe & The Loud River`}
-        text={dummyText}
+        text={joeAndTheLoudRiverText}
         buttonUrl='https://joeandtheloudriver.bandcamp.com/'
       />
     </div>

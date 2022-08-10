@@ -1,5 +1,3 @@
-import React from 'react';
-import Layout from './src/components/Layout/layout';
 import './src/global.css';
 import './src/variable.css';
 import '@fontsource/lato';
