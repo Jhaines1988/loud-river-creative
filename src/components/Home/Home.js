@@ -1,6 +1,6 @@
-import React from 'react';
-import * as styles from './Home.module.css';
-import MainButton from '../Button/Main-button';
+import React from "react";
+import * as styles from "./Home.module.css";
+import MainButton from "../Button/Main-button";
 
 const Home = (props) => {
   return (
@@ -11,11 +11,9 @@ const Home = (props) => {
       </h1>
 
       <p className={styles.text}>
-        Hey, hi, hello! We're Joe & Carolyn Haines, and we make lots of things,
-        and we're bringing our creative specialties together to live under one
-        roof: Loud River Creative. While we work on that behind the scenes, we
-        invite you to check out our existing explorations into design,
-        programming and music.
+        Loud River Creative is a small development and design shop run by Joe and Carolyn Haines. If
+        you're interested in working with us on your next website or application, please get in
+        touch!
       </p>
       <MainButton buttonText='Work With Us' />
     </div>

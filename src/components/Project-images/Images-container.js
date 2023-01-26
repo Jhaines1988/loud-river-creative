@@ -1,6 +1,6 @@
-import React from 'react';
-import * as styles from './Images-container.module.css';
-import { StaticImage } from 'gatsby-plugin-image';
+import React from "react";
+import * as styles from "./Images-container.module.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 const ImagesContainer = () => {
   return (
@@ -20,14 +20,14 @@ const ImagesContainer = () => {
         placeholder='blurred'
         layout='constrained'
       />
-
+      {/*
       <StaticImage
         className={styles.staticImage}
         alt='Joe And The Loud River album cover with a vinyl record emerging from the sleeve'
         src='../../images/JLRiver.png'
         placeholder='blurred'
         layout='constrained'
-      />
+      /> */}
     </div>
   );
 };
